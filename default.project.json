@@ -1,0 +1,8 @@
+{
+    "name": "leaderboard-extended",
+    "tree": {
+        "$path": "lib",
+
+        "LeaderboardUI": {"$path": "UI/LeaderboardUI.rbxmx"}
+    }
+}

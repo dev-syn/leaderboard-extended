@@ -1,0 +1,16 @@
+{
+    "name": "leaderboard-extended",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "LeaderboardExtender": {
+                "$path": "lib",
+
+                "LeaderboardUI": {"$path": "UI/LeaderboardUI.rbxmx"},
+
+                "Dependencies": {"$path": "Packages"}
+            }
+        }
+    }
+}

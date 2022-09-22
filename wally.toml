@@ -1,0 +1,11 @@
+[package]
+name = "dev-syn/leaderboard-extended"
+description = "A leaderboard thats extended with more features such as PLACEHOLDER"
+version = "0.1.0"
+license = "MIT"
+authors = ["dev-syn"]
+realm = "shared"
+registry = "https://github.com/upliftgames/wally-index"
+exclude = ["*.remodel.lua"]
+[dependencies]
+UILoader = "dev-syn/ui-loader@0.3.4"
