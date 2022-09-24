@@ -7,9 +7,11 @@
             "LeaderboardExtender": {
                 "$path": "lib",
 
-                "LeaderboardUI": {"$path": "UI/LeaderboardUI.rbxmx"},
+                "LeaderboardUI": {
+                    "$path": "UI/LeaderboardUI.rbxmx",
 
-                "Dependencies": {"$path": "Packages"}
+                    "LeaderboardHandler": {"$path": "UI/UIScripts/LeaderboardHandler.client.lua"}
+                }
             }
         }
     }

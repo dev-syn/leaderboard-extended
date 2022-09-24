@@ -3,6 +3,10 @@
     "tree": {
         "$path": "lib",
 
-        "LeaderboardUI": {"$path": "UI/LeaderboardUI.rbxmx"}
+        "LeaderboardUI": {
+            "$path": "UI/LeaderboardUI.rbxmx",
+
+            "LeaderboardHandler": {"$path": "UI/UIScripts/LeaderboardHandler.client.lua"}
+        }
     }
 }
