@@ -7,5 +7,3 @@ authors = ["dev-syn"]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
 exclude = ["*.remodel.lua"]
-[dependencies]
-UILoader = "dev-syn/ui-loader@0.3.4"
