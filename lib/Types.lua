@@ -1,5 +1,2 @@
-export type Schema_LeaderboardExtender = {
-
-};
-
+-- TODO: Add types for LeaderboardExtended
 return true;
