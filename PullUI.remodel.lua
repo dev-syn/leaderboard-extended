@@ -1,13 +1,13 @@
----@diagnostic disable: undefined-global
+--- @diagnostic disable: undefined-global
+
 local game = remodel.readPlaceFile("LeaderboardExtended.rbxlx");
 
-remodel.createDirAll("UI");
+local serviceName = table.pack(...)[1];
+if serviceName then
+    local QueryService = game:GetService(serviceName);
 
-local LeaderboardExtenderModule = game.ReplicatedStorage:FindFirstChild("LeaderboardExtender");
-
-if LeaderboardExtenderModule then
-    local LeaderboardUI = LeaderboardExtenderModule:FindFirstChild("LeaderboardUI");
-    if LeaderboardUI then
-        remodel.writeModelFile("UI/"..LeaderboardUI.Name..".rbxmx",LeaderboardUI);
+    local UI = QueryService:FindFirstChild("LeaderboardUI");
+    if UI then
+        remodel.writeModelFile("lib/LeaderboardExtendedUI.rbxmx",UI);
     end
 end

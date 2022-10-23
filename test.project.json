@@ -2,16 +2,14 @@
     "name": "leaderboard-extended",
     "tree": {
         "$className": "DataModel",
-        "ReplicatedStorage": {
-            "$className": "ReplicatedStorage",
-            "LeaderboardExtender": {
-                "$path": "lib",
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
 
-                "LeaderboardUI": {
-                    "$path": "UI/LeaderboardUI.rbxmx",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
 
-                    "LeaderboardHandler": {"$path": "UI/UIScripts/LeaderboardHandler.client.lua"}
-                }
+                "LeaderboardExtended": {"$path": "lib"},
+                "testRunner": {"$path": "TestScripts/testRunner.client.lua"}
             }
         }
     }

@@ -1,12 +1,4 @@
 {
     "name": "leaderboard-extended",
-    "tree": {
-        "$path": "lib",
-
-        "LeaderboardUI": {
-            "$path": "UI/LeaderboardUI.rbxmx",
-
-            "LeaderboardHandler": {"$path": "UI/UIScripts/LeaderboardHandler.client.lua"}
-        }
-    }
+    "tree": {"$path": "lib"}
 }
