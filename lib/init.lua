@@ -24,6 +24,11 @@ LeaderboardExtended._UserPanels = userPanels;
 
 local Config: Types.Config;
 
+--[=[
+    @within LeaderboardExtended
+
+    This function loads the passed [Config] into [LeaderboardExtended].
+]=]
 function LeaderboardExtended.LoadConfig(config: Types.Config)
     Config = config;
 end
