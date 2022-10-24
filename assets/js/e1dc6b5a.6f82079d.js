@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[48],{63891:e=>{e.exports=JSON.parse('{"sourceUrl":"https://github.com/dev-syn/leaderboard-extended/blob/master","baseUrl":"/leaderboard-extended/","classOrder":["Config","UserPanel","LeaderboardExtended"],"apiCategories":[]}')}}]);
